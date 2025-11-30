@@ -19,17 +19,16 @@ connectDB();
 //middleware
 app.use(express.json());
 
-// CORS configuration - simplified for production
+// CORS configuration
 app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://clothing-e-commerce-s4y3.vercel.app",
+      "https://clothing-e-commerce-ochre.vercel.app",
     ],
     credentials: false,
   })
 );
-// Apply CORS middleware
 
 //api endpoints
 
