@@ -24,7 +24,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://clothing-e-commerce-ochre.vercel.app",
+      "https://clothing-e-commerce-s4y3.vercel.app",
     ],
     credentials: false,
   })
