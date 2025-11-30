@@ -22,13 +22,14 @@ app.use(express.json());
 // CORS configuration - simplified for production
 app.use(
   cors({
-    origin: "http://localhost:5173", 
-    credentials: false,              
+    origin: [
+      "http://localhost:5173",
+      "https://clothing-e-commerce-ochre.vercel.app",
+    ],
+    credentials: false,
   })
 );
 // Apply CORS middleware
-
-
 
 //api endpoints
 
