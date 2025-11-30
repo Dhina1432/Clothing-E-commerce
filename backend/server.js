@@ -19,7 +19,7 @@ connectDB();
 //middleware
 app.use(express.json());
 
-// CORS configuration - simplified for production
+
 app.use(
   cors({
     origin: [
@@ -29,7 +29,7 @@ app.use(
     credentials: false,
   })
 );
-// Apply CORS middleware
+
 
 //api endpoints
 
